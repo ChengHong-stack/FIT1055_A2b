@@ -1,0 +1,17 @@
+{
+  "async_whitelist": [
+    "read_sandbox_data",
+    "query_database",
+    "post_to_slack",
+    "summarize_text"
+  ],
+  "sync_human_gate": [
+    "access_proc_memory",
+    "send_email",
+    "transfer_funds"
+  ],
+  "blocked_operations": [
+    "delete_records",
+    "modify_mcp_server"
+  ]
+}
